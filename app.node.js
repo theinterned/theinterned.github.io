@@ -140,6 +140,8 @@ module.exports =
               return context$3$0.stop();
           }
         }, null, _this2);
+      }).then(function () {
+        return document.getElementById('app').className += ' running';
       });
     });
   }
@@ -556,7 +558,7 @@ module.exports =
           _react2['default'].createElement(
             'p',
             null,
-            'Coming soon.'
+            'Coming soon (just add some pages to this folder).'
           )
         );
       }
@@ -887,7 +889,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "\n/*\n * css colour names so that I can use Sass functions on them — Sass functions\n * don't work with named colours.\n * RGB vals taken from http://www.cssportal.com/css3-color-names/\n */\n/* Fonts */\n\nhtml { font-size: 62.5%; } /* =10px */\nbody {\n  background-color: rgb(240,248,255);\n  font-size: 1.6rem; /* =16px */\n  line-height: 2rem;\n  font-family: 'Avenir Next',Avenir,Frutiger,'Frutiger Linotype','Segoe UI',Futura,'Century Gothic',CenturyGothic,'Helvetica Neue',Helvetica,sans-serif;\n  color: rgb(0,0,139);\n  max-width: 84rem;\n  margin: 0 auto;\n  padding: 2rem\n}\n@media screen and (min-width:478px) {\n\n body { padding: 4rem 6rem; }\n  }\na {\n  @include c-link();\n}\n\n* {\n  margin: 0;\n}\n* + * {\n  margin-top: 2rem;\n  margin-bottom: 0rem;\n}\n.emoji { font-weight: normal; }\n#app { margin: 0; }\n", ""]);
+  exports.push([module.id, "\n/*\n * css colour names so that I can use Sass functions on them — Sass functions\n * don't work with named colours.\n * RGB vals taken from http://www.cssportal.com/css3-color-names/\n */\n/* Fonts */\n\nhtml { font-size: 62.5%; } /* =10px */\nbody {\n  background-color: rgb(240,248,255);\n  font-size: 1.6rem; /* =16px */\n  line-height: 2rem;\n  font-family: 'Avenir Next',Avenir,Frutiger,'Frutiger Linotype','Segoe UI',Futura,'Century Gothic',CenturyGothic,'Helvetica Neue',Helvetica,sans-serif;\n  color: rgb(0,0,139);\n  max-width: 84rem;\n  margin: 0 auto;\n  padding: 2rem\n}\n@media screen and (min-width:478px) {\n\n body { padding: 4rem 6rem; }\n  }\na {\n  @include c-link();\n}\n\n* {\n  margin: 0;\n}\n\n.emoji { font-weight: normal; }\n#app {\n  margin: 0;\n  -webkit-transition: opacity .4s;\n  -o-transition: opacity .4s;\n  transition: opacity .4s;\n  opacity: 0\n}\n#app.running { opacity: 1; }\n", ""]);
 
   // exports
 

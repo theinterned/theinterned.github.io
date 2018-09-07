@@ -814,7 +814,7 @@ module.exports =
             _react2['default'].createElement(
               'p',
               null,
-              'I’m a seasoned web developer and designer with over 15 years of experience working on high profile, heavily-trafficked websites.'
+              'I’m a seasoned web developer and designer with almost 20 years of experience working on high profile, heavily-trafficked websites.'
             ),
             _react2['default'].createElement(
               'p',

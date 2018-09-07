@@ -43,7 +43,7 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
   /**
    * React Static Boilerplate
@@ -158,15 +158,15 @@ module.exports =
   exports['default'] = { route: route, routes: routes };
   module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
   module.exports = require("react");
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
   /*
   	MIT License http://www.opensource.org/licenses/mit-license.php
@@ -220,15 +220,15 @@ module.exports =
   };
 
 
-/***/ },
+/***/ }),
 /* 3 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
   module.exports = require("fbjs/lib/ExecutionEnvironment");
 
-/***/ },
+/***/ }),
 /* 4 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
   /**
    * React Static Boilerplate
@@ -267,9 +267,9 @@ module.exports =
   exports['default'] = Layout;
   module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 5 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
   /**
    * React Static Boilerplate
@@ -304,9 +304,9 @@ module.exports =
   exports['default'] = location;
   module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 6 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
   /**
    * React Static Boilerplate
@@ -369,9 +369,9 @@ module.exports =
   exports['default'] = _default;
   module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 7 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
   /**
    * React Static Boilerplate
@@ -440,9 +440,9 @@ module.exports =
   exports['default'] = _default;
   module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 8 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
   /**
    * React Static Boilerplate
@@ -505,9 +505,9 @@ module.exports =
   exports['default'] = _default;
   module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 9 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
   /**
    * React Static Boilerplate
@@ -570,9 +570,9 @@ module.exports =
   exports['default'] = _default;
   module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 10 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
   /**
    * React Static Boilerplate
@@ -635,9 +635,9 @@ module.exports =
   exports['default'] = _default;
   module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 11 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
   /**
    * React Static Boilerplate
@@ -700,9 +700,9 @@ module.exports =
   exports['default'] = _default;
   module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 12 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
   /**
    * React Static Boilerplate
@@ -880,9 +880,9 @@ module.exports =
   exports['default'] = _default;
   module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 13 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
   // imports
@@ -894,43 +894,43 @@ module.exports =
   // exports
 
 
-/***/ },
+/***/ }),
 /* 14 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
   // imports
 
 
   // module
-  exports.push([module.id, "/*\n * css colour names so that I can use Sass functions on them — Sass functions\n * don't work with named colours.\n * RGB vals taken from http://www.cssportal.com/css3-color-names/\n */\n/* Fonts */\n\n.title {\n  font-size: 4rem;\n  line-height: 1;\n  margin: -1rem -1rem 3rem;\n  padding: 8rem 2rem 10rem;\n  font-family: serif;\n  text-align: center;\n  font-style: italic;\n  font-weight: normal;\n  border-color: rgb(255,228,225) rgb(255,228,225) rgb(176, 224, 230)rgb(176, 224, 230);\n  border-style: solid;\n  border-width: 1.5rem;\n  background-color: white\n  /* transition: box-shadow .3s, transform .3s;\n   &:hover {\n     box-shadow: 1rem 1rem $c-border;\n     transform: translate(-1rem, -1rem);\n   }\n   */\n}\n\n@media screen {\n\n  .title {}\n  }\n\n@media screen and (min-width: 321px), screen and (min-height: 569px) {\n\n  .title {/* > iphone 5 screen */\n    font-size: 5rem\n  }\n}\n\n@media screen and (min-width: 376px) and (max-height: 415px), screen and (min-height: 628px) {\n\n  .title {/* > iphone 6 screen */\n    padding: 10rem 2rem 12rem;\n    margin: 0 0 3rem\n  }\n}\n\n@media screen and (min-width: 415px) and (min-height: 737px) {\n\n  .title {/* > iphone 6+ screen */\n    font-size: 6rem;\n    padding: 18rem 2rem\n  }\n}\n.links {\n  list-style: none;\n  margin: 0 0 6rem;\n  float: left;\n  width: 100%;\n  padding: .2rem 0;\n  background-color: white;\n  border-color: rgb(176, 224, 230);\n  border-style: solid;\n  border-width: .2rem 0\n}\n@media screen and (min-width:42rem) {\n\n  .links {\n    border: 0 none;\n    padding: 0\n  }\n  }\n.link {\n  display: block;\n  margin: 0;\n  font-weight: 600;\n  letter-spacing: .15rem;\n  background-color: white;\n  text-align: center;\n  padding: 0;\n\n}\n.link a {\n  color: rgb(0,0,139);/*\n  @if $visited !== undefined {\n  }\n  @if $hover !== undefined {\n  }\n   @if $focus != \"\"{\n  }\n  @if $active {\n  }\n  */\n  text-decoration: none;\n  display: block;\n  background-color: rgb(240,248,255);\n  text-decoration: none;\n  -webkit-transition: background-color .5s .15s;\n  -o-transition: background-color .5s .15s;\n  transition: background-color .5s .15s;\n  padding: 1rem 0;\n  border-color: rgb(176, 224, 230);\n  border-style: solid;\n  border-width: .1rem 0\n}\n.link a:visited {\n  color: rgb(0,0,139)\n}\n.link a:hover {\n  color: rgb(0,0,205)\n}\n.link a:focus {\n  color: rgb(0,0,255)\n}\n.link a:active {\n  color: rgb(138,43,226)\n}\n.link a:hover {\n  background-color: white\n}\n.link:first-child a {\n  border-top-width: .2rem\n}\n.link:last-child a {\n  border-bottom-width: .2rem\n}\n@media screen and (min-width:42rem) {\n\n  .link {\n    padding: .2rem 0;\n    float: left;\n    width: calc((1/5)*100%);\n    border-color: rgb(176, 224, 230);\n    border-style: solid;\n    border-width: .2rem 0;\n    -webkit-transition: padding .2s, margin .2s, background-color .3s .1s;\n    -o-transition: padding .2s, margin .2s, background-color .3s .1s;\n    transition: padding .2s, margin .2s, background-color .3s .1s\n  }\n\n  .link:hover {\n    background-color: rgb(176, 224, 230);\n    padding: .6rem 0;\n    margin: -.4rem 0\n  }\n  }\n@media screen and (min-width:42rem) {\n\n  .link a {\n    border-width: .2rem 0\n  }\n    }\n.blurb {\n  display: none;\n  clear: left;\n  margin: 0 auto;\n  padding: 5rem 0;\n  width: 80%;\n  max-width: 36em\n}\n.blurb > * {}\n.blurb > *:nth-child(1) {\n  opacity: $(1 - (i*opacity));\n  -webkit-transition: opacity .2s $((i*.75 - 1) * duration);\n  -o-transition: opacity .2s $((i*.75 - 1) * duration);\n  transition: opacity .2s $((i*.75 - 1) * duration)\n}\n.blurb > *:nth-child(2) {\n  opacity: $(1 - (i*opacity));\n  -webkit-transition: opacity .2s $((i*.75 - 1) * duration);\n  -o-transition: opacity .2s $((i*.75 - 1) * duration);\n  transition: opacity .2s $((i*.75 - 1) * duration)\n}\n.blurb > *:nth-child(3) {\n  opacity: $(1 - (i*opacity));\n  -webkit-transition: opacity .2s $((i*.75 - 1) * duration);\n  -o-transition: opacity .2s $((i*.75 - 1) * duration);\n  transition: opacity .2s $((i*.75 - 1) * duration)\n}\n.blurb > *:nth-child(4) {\n  opacity: $(1 - (i*opacity));\n  -webkit-transition: opacity .2s $((i*.75 - 1) * duration);\n  -o-transition: opacity .2s $((i*.75 - 1) * duration);\n  transition: opacity .2s $((i*.75 - 1) * duration)\n}\n.blurb:hover > * {\n  opacity: 1\n}\n.blurb p:first-child:first-line {\n  font-weight: bold\n}\n.CV_dl {\n  font-weight: bold;\n}\n.CV_dl a {\n  text-decoration: none;\n}\n.foot {\n  text-align: center;\n  clear: left;\n  opacity: .2;\n  -webkit-transition: opacity 0.15s;\n  -o-transition: opacity 0.15s;\n  transition: opacity 0.15s\n}\n.foot:hover {\n  opacity: 1\n}\n", ""]);
+  exports.push([module.id, "/*\n * css colour names so that I can use Sass functions on them — Sass functions\n * don't work with named colours.\n * RGB vals taken from http://www.cssportal.com/css3-color-names/\n */\n/* Fonts */\n\n.title {\n  font-size: 4rem;\n  line-height: 1;\n  margin: -1rem -1rem 3rem;\n  padding: 8rem 2rem 10rem;\n  font-family: serif;\n  text-align: center;\n  font-style: italic;\n  font-weight: normal;\n  border-color: rgb(255,228,225) rgb(255,228,225) rgb(176, 224, 230) rgb(176, 224, 230);\n  border-style: solid;\n  border-width: 1.5rem;\n  background-color: white\n  /* transition: box-shadow .3s, transform .3s;\n   &:hover {\n     box-shadow: 1rem 1rem $c-border;\n     transform: translate(-1rem, -1rem);\n   }\n   */\n}\n\n@media screen {\n\n  .title {}\n  }\n\n@media screen and (min-width: 321px), screen and (min-height: 569px) {\n\n  .title {/* > iphone 5 screen */\n    font-size: 5rem\n  }\n}\n\n@media screen and (min-width: 376px) and (max-height: 415px), screen and (min-height: 628px) {\n\n  .title {/* > iphone 6 screen */\n    padding: 10rem 2rem 12rem;\n    margin: 0 0 3rem\n  }\n}\n\n@media screen and (min-width: 415px) and (min-height: 737px) {\n\n  .title {/* > iphone 6+ screen */\n    font-size: 6rem;\n    padding: 18rem 2rem\n  }\n}\n.links {\n  list-style: none;\n  margin: 0 0 6rem;\n  float: left;\n  width: 100%;\n  padding: .2rem 0;\n  background-color: white;\n  border-color: rgb(176, 224, 230);\n  border-style: solid;\n  border-width: .2rem 0\n}\n@media screen and (min-width:42rem) {\n\n  .links {\n    border: 0 none;\n    padding: 0\n  }\n  }\n.link {\n  display: block;\n  margin: 0;\n  font-weight: 600;\n  letter-spacing: .15rem;\n  background-color: white;\n  text-align: center;\n  padding: 0;\n\n}\n.link a {\n  color: rgb(0,0,139);/*\n  @if $visited !== undefined {\n  }\n  @if $hover !== undefined {\n  }\n   @if $focus != \"\"{\n  }\n  @if $active {\n  }\n  */\n  text-decoration: none;\n  display: block;\n  background-color: rgb(240,248,255);\n  text-decoration: none;\n  -webkit-transition: background-color .5s .15s;\n  -o-transition: background-color .5s .15s;\n  transition: background-color .5s .15s;\n  padding: 1rem 0;\n  border-color: rgb(176, 224, 230);\n  border-style: solid;\n  border-width: .1rem 0\n}\n.link a:visited {\n  color: rgb(0,0,139)\n}\n.link a:hover {\n  color: rgb(0,0,205)\n}\n.link a:focus {\n  color: rgb(0,0,255)\n}\n.link a:active {\n  color: rgb(138,43,226)\n}\n.link a:hover {\n  background-color: white\n}\n.link:first-child a {\n  border-top-width: .2rem\n}\n.link:last-child a {\n  border-bottom-width: .2rem\n}\n@media screen and (min-width:42rem) {\n\n  .link {\n    padding: .2rem 0;\n    float: left;\n    width: calc((1/5)*100%);\n    border-color: rgb(176, 224, 230);\n    border-style: solid;\n    border-width: .2rem 0;\n    -webkit-transition: padding .2s, margin .2s, background-color .3s .1s;\n    -o-transition: padding .2s, margin .2s, background-color .3s .1s;\n    transition: padding .2s, margin .2s, background-color .3s .1s\n  }\n\n  .link:hover {\n    background-color: rgb(176, 224, 230);\n    padding: .6rem 0;\n    margin: -.4rem 0\n  }\n  }\n@media screen and (min-width:42rem) {\n\n  .link a {\n    border-width: .2rem 0\n  }\n    }\n.blurb {\n  display: none;\n  clear: left;\n  margin: 0 auto;\n  padding: 5rem 0;\n  width: 80%;\n  max-width: 36em\n}\n.blurb > * {}\n.blurb > *:nth-child(1) {\n  opacity: $(1 - (i*opacity));\n  -webkit-transition: opacity .2s $((i*.75 - 1) * duration);\n  -o-transition: opacity .2s $((i*.75 - 1) * duration);\n  transition: opacity .2s $((i*.75 - 1) * duration)\n}\n.blurb > *:nth-child(2) {\n  opacity: $(1 - (i*opacity));\n  -webkit-transition: opacity .2s $((i*.75 - 1) * duration);\n  -o-transition: opacity .2s $((i*.75 - 1) * duration);\n  transition: opacity .2s $((i*.75 - 1) * duration)\n}\n.blurb > *:nth-child(3) {\n  opacity: $(1 - (i*opacity));\n  -webkit-transition: opacity .2s $((i*.75 - 1) * duration);\n  -o-transition: opacity .2s $((i*.75 - 1) * duration);\n  transition: opacity .2s $((i*.75 - 1) * duration)\n}\n.blurb > *:nth-child(4) {\n  opacity: $(1 - (i*opacity));\n  -webkit-transition: opacity .2s $((i*.75 - 1) * duration);\n  -o-transition: opacity .2s $((i*.75 - 1) * duration);\n  transition: opacity .2s $((i*.75 - 1) * duration)\n}\n.blurb:hover > * {\n  opacity: 1\n}\n.blurb p:first-child:first-line {\n  font-weight: bold\n}\n.CV_dl {\n  font-weight: bold;\n}\n.CV_dl a {\n  text-decoration: none;\n}\n.foot {\n  text-align: center;\n  clear: left;\n  opacity: .2;\n  -webkit-transition: opacity 0.15s;\n  -o-transition: opacity 0.15s;\n  transition: opacity 0.15s\n}\n.foot:hover {\n  opacity: 1\n}\n", ""]);
 
   // exports
 
 
-/***/ },
+/***/ }),
 /* 15 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
   module.exports = require("history/lib/createBrowserHistory");
 
-/***/ },
+/***/ }),
 /* 16 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
   module.exports = require("history/lib/createMemoryHistory");
 
-/***/ },
+/***/ }),
 /* 17 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
   module.exports = require("history/lib/useQueries");
 
-/***/ },
+/***/ }),
 /* 18 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
   module.exports = require("react-dom");
 
-/***/ }
+/***/ })
 /******/ ]);

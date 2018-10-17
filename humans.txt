@@ -11,5 +11,5 @@
 
 # TECHNOLOGY COLOPHON
 
-    ES2015, HTML5, CSS3
-    React, Normalize.css
+    ES6, HTML5, CSS3
+    React, Styled Components
